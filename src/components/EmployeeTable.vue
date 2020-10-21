@@ -11,13 +11,13 @@
                 <tr v-for="employee in employees" :key="employee.id">
                     <td>{{ employee.name }}</td>
                     <td>{{ employee.email }}</td>
-                </tr>
+                </tr> 
             </tbody>
         </table>
     </div>
 </template>
 
-<script>
+<script> 
 export default {
     name: 'employee-table',
     props: {
